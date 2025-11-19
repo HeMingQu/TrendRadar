@@ -26,7 +26,6 @@ crawler:
 # 推送模式选择
 report:
   mode: "daily" # 可选: "daily"|"incremental"|"current"
-  push_interval: 1440  # 推送间隔（单位：分钟），1440=24小时（每天1次）
   rank_threshold: 5 # 排名高亮阈值
   
 
